@@ -1,10 +1,8 @@
-Blender gruvbox theme
+# Blender gruvbox theme
 
 Blender 2.80+ theme based on the gruvbox color scheme https://github.com/morhetz/gruvbox
 
-
 ![blender_startup_file](https://user-images.githubusercontent.com/33354262/66078132-55739900-e559-11e9-8ce9-30c6507d04ef.png)
-
 
 Palette
 -------
@@ -17,12 +15,10 @@ Palette
 
 ![Palette Light](http://i.imgur.com/49qKyYW.png)
 
-
 Screenshots
 -----------
 
 ### Dark mode
-
 
 Edit mode - vertices
 
@@ -63,7 +59,6 @@ Animation example
 Script mode
 
 ![blender_editor](https://user-images.githubusercontent.com/33354262/66078127-54db0280-e559-11e9-813c-9700cd7a0ec4.png)
-
 
 ### Light mode
 
