@@ -1,3 +1,5 @@
+Blender gruvbox theme
+
 Blender 2.80+ theme based on the gruvbox color scheme https://github.com/morhetz/gruvbox
 
 
