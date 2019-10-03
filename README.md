@@ -4,6 +4,8 @@ Blender 2.80+ theme based on the gruvbox color scheme https://github.com/morhetz
 
 ![blender_startup_file](https://user-images.githubusercontent.com/33354262/66078132-55739900-e559-11e9-8ce9-30c6507d04ef.png)
 
+![blender_light_startup_file](https://user-images.githubusercontent.com/33354262/66160790-ce8af300-e622-11e9-9af2-a0125e2b5759.png)
+
 Palette
 -------
 
@@ -62,4 +64,6 @@ Script mode
 
 ### Light mode
 
-WIP
+Shaders example
+
+![blender_light_shaders](https://user-images.githubusercontent.com/33354262/66163452-4c053200-e628-11e9-9ea1-fe4a2f730526.png)
