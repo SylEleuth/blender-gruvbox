@@ -346,20 +346,20 @@
       <ThemeView3D
         grid="#665c544d"
         clipping_border_3d="#3c3836ff"
-        wire="#1d2021"
-        wire_edit="#1d2021"
-        gp_vertex="#1d2021"
+        wire="#ebdbb2"
+        wire_edit="#ebdbb2"
+        gp_vertex="#ebdbb2"
         gp_vertex_select="#fe8019"
         gp_vertex_size="3"
         text_grease_pencil="#b8bb26"
-        object_selected="#fabd2f"
-        object_active="#d65d0e"
-        text_keyframe="#ddd700"
+        object_selected="#d65d0e"
+        object_active="#fe8019"
+        text_keyframe="#fabd2f"
         camera="#1d2021"
         empty="#1d2021"
         light="#1d202128"
         speaker="#1d2021"
-        vertex="#1d2021"
+        vertex="#d5c4a1"
         vertex_select="#d65d0e"
         vertex_size="3"
         vertex_bevel="#458588"
@@ -371,7 +371,7 @@
         edge_bevel="#458588"
         edge_facesel="#504945"
         freestyle_edge_mark="#8ec07c"
-        face="#fbf1c712"
+        face="#d65d0e12"
         face_select="#d65d0e6c"
         face_dot="#fe8019"
         facedot_size="3"
@@ -394,11 +394,11 @@
         extra_edge_angle="#98971a"
         extra_face_angle="#458588"
         extra_face_area="#689d6a"
-        editmesh_active="#fbf1c780"
+        editmesh_active="#d65d0e12"
         normal="#83a598"
         split_normal="#b16286"
         bone_pose="#83a598"
-        bone_pose_active="#83a598"
+        bone_pose_active="#458588"
         bone_solid="#bdae93"
         bundle_solid="#d5c4a1"
         camera_path="#1d2021"
@@ -657,7 +657,7 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#ebdbb2"
+            title="#000000"
             text="#a89984"
             text_hi="#fbf1c7"
             header="#3c3836ff"
@@ -688,7 +688,7 @@
           <ThemeSpaceListGeneric
             list="#282828"
             list_title="#fbf1c7"
-            list_text="#bdae93"
+            list_text="#d5c4a1"
             list_text_hi="#fbf1c7"
             >
           </ThemeSpaceListGeneric>
@@ -758,8 +758,8 @@
             >
             <panelcolors>
               <ThemePanelColors
-                header="#3c3836cc"
-                back="#32302fb3"
+                header="#282828e6"
+                back="#32302ff0"
                 sub_back="#1d20213e"
                 >
               </ThemePanelColors>
@@ -910,14 +910,14 @@
         wire_select="#fbf1c7"
         selected_text="#7c6f64"
         node_backdrop="#504945ff"
-        converter_node="#83a598bb"
+        converter_node="#458588ff"
         color_node="#d79921"
         group_node="#98971ab9"
         group_socket_node="#1d2021"
         frame_node="#1d2021cc"
         matte_node="#b16286"
         distor_node="#83a598"
-        noodle_curving="0"
+        noodle_curving="5"
         input_node="#fb4934"
         output_node="#cc241d"
         filter_node="#458588"
@@ -972,15 +972,15 @@
     <outliner>
       <ThemeOutliner
         match="#689d6a"
-        selected_highlight="#8ec07c"
-        selected_object="#d65d0e"
+        selected_highlight="#d65d0e"
+        selected_object="#282828"
         active_object="#fe8019"
         edited_object="#98971a"
         row_alternate="#fbf1c707"
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282828"
+            back="#32302f"
             title="#fbf1c7"
             text="#bdae93"
             text_hi="#fbf1c7"
