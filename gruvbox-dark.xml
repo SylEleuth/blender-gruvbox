@@ -973,7 +973,7 @@
       <ThemeOutliner
         match="#689d6a"
         selected_highlight="#d65d0e"
-        selected_object="#282828"
+        selected_object="#d65d0e"
         active_object="#fe8019"
         edited_object="#98971a"
         row_alternate="#fbf1c707"
