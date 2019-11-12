@@ -364,7 +364,7 @@
         vertex_size="3"
         vertex_bevel="#458588"
         vertex_unreferenced="#f9f5d7"
-        edge_select="#d65d0e"
+        edge_select="#cc241d"
         edge_seam="#cc241d"
         edge_sharp="#076678"
         edge_crease="#b16286"
@@ -973,7 +973,7 @@
       <ThemeOutliner
         match="#689d6a"
         selected_highlight="#d65d0e"
-        selected_object="#d65d0e"
+        selected_object="#fe8019"
         active_object="#1d2021"
         edited_object="#98971a"
         row_alternate="#28282807"
