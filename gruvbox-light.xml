@@ -149,7 +149,7 @@
             outline="#ebdbb2"
             inner="#d5c4a1ff"
             inner_sel="#d5c4a1ff"
-            item="#d5c4a1e6"
+            item="#bdae93e6"
             text="#3c3836"
             text_sel="#282828"
             show_shaded="TRUE"
@@ -1448,4 +1448,4 @@
       </ThemeFontStyle>
     </widget>
   </ThemeStyle>
-</bpy>
+<
