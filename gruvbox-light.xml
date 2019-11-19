@@ -133,7 +133,7 @@
           <ThemeWidgetColors
             outline="#ebdbb2"
             inner="#d5c4a1ff"
-            inner_sel="#d5c4a1ff"
+            inner_sel="#bdae93ff"
             item="#f9f5d7ff"
             text="#3c3836"
             text_sel="#282828"
@@ -1448,4 +1448,4 @@
       </ThemeFontStyle>
     </widget>
   </ThemeStyle>
-<
+</bpy>
