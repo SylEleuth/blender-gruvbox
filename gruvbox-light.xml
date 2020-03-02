@@ -857,6 +857,7 @@
     </properties>
     <text_editor>
       <ThemeTextEditor
+        line_numbers="#a89984"
         line_numbers_background="#f9f5d7"
         selected_text="#458588"
         cursor="#cc241d"
