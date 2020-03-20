@@ -344,7 +344,7 @@
     </user_interface>
     <view_3d>
       <ThemeView3D
-        grid="#d5c4a1"
+        grid="#d5c4a123"
         clipping_border_3d="#3c3836ff"
         wire="#ebdbb2"
         wire_edit="#ebdbb2"
