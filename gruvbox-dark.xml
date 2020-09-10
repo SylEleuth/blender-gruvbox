@@ -1238,12 +1238,12 @@
       <ThemeStatusBar>
         <space>
           <ThemeSpaceGeneric
-            back="#282828"
+            back="#3c3836"
             title="#fbf1c7"
-            text="#838383"
+            text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#32302fff"
-            header_text="#aaaaaa"
+            header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
             button="#32302fff"
             button_title="#1d2021"

@@ -1238,16 +1238,16 @@
       <ThemeStatusBar>
         <space>
           <ThemeSpaceGeneric
-            back="#fbf1c7"
+            back="#ebdbb2"
             title="#282828"
-            text="#838383"
+            text="#3c3836"
             text_hi="#282828"
             header="#f2e5bcff"
-            header_text="#aaaaaa"
+            header_text="#3c3836"
             header_text_hi="#282828"
-            button="#f2e5bcff"
-            button_title="#f9f5d7"
-            button_text="#f9f5d7"
+            button="#ebdbb2ff"
+            button_title="#282828"
+            button_text="#3c3836"
             button_text_hi="#282828"
             navigation_bar="#f9f5d700"
             execution_buts="#f9f5d700"
