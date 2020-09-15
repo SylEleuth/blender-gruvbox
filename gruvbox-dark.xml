@@ -8,12 +8,17 @@
         icon_saturation="0.5"
         widget_emboss="#1d202105"
         editor_outline="#1d2021"
+        widget_text_cursor="#458588"
+        transparent_checker_primary="#3c3836"
+        transparent_checker_secondary="#282828"
+        transparent_checker_size="8"
         axis_x="#fb4934"
         axis_y="#b8bb26"
         axis_z="#458588"
         gizmo_hi="#fbf1c7"
         gizmo_primary="#fabd2f"
         gizmo_secondary="#83a598"
+        gizmo_view_align="#1d2021"
         gizmo_a="#8ec07c"
         gizmo_b="#cc241d"
         icon_scene="#d5c4a1"
@@ -22,6 +27,7 @@
         icon_object_data="#8ec07c"
         icon_modifier="#83a598"
         icon_shading="#d3869b"
+        icon_folder="#d5c4a1"
         icon_border_intensity="0"
         >
         <wcol_regular>
@@ -376,6 +382,8 @@
         face_dot="#d65d0e"
         facedot_size="3"
         freestyle_face_mark="#8ec07c4d"
+        face_back="#ff0000b3"
+        face_front="#0000ffb3"
         nurb_uline="#98971a"
         nurb_vline="#b16286"
         nurb_sel_uline="#fabd2f"
@@ -396,10 +404,12 @@
         extra_face_area="#689d6a"
         editmesh_active="#fbf1c7ff"
         normal="#83a598"
+        vertex_normal="#458588"
         split_normal="#b16286"
         bone_pose="#83a598"
         bone_pose_active="#458588"
         bone_solid="#bdae93"
+        bone_locked_weight="#cc241d80"
         bundle_solid="#d5c4a1"
         camera_path="#1d2021"
         skin_root="#cc241d"
@@ -432,9 +442,9 @@
             >
             <gradients>
               <ThemeGradientColors
-                show_grad="FALSE"
+                background_type="SINGLE_COLOR"
                 high_gradient="#3c3836"
-                gradient="#1d2021"
+                gradient="#3c3836"
                 >
               </ThemeGradientColors>
             </gradients>
@@ -455,6 +465,8 @@
         grid="#282828"
         frame_current="#458588"
         time_scrub_background="#282828e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         window_sliders="#928374"
         channels_region="#32302f"
         dopesheet_channel="#458588"
@@ -526,6 +538,7 @@
     <file_browser>
       <ThemeFileBrowser
         selected_file="#d65d0e"
+        row_alternate="#fbf1c707"
         >
         <space>
           <ThemeSpaceGeneric
@@ -563,6 +576,8 @@
       <ThemeNLAEditor
         grid="#282828"
         view_sliders="#928374"
+        dopesheet_channel="#458588"
+        nla_track="#3c3836"
         active_action="#d65d0e66"
         active_action_unset="#9283744d"
         preview_range="#d65d0e66"
@@ -580,6 +595,8 @@
         keyframe_border_selected="#1d2021ff"
         frame_current="#458588"
         time_scrub_background="#282828e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         >
         <space>
           <ThemeSpaceGeneric
@@ -627,6 +644,8 @@
         grid="#282828"
         frame_current="#458588"
         time_scrub_background="#282828e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         value_sliders="#1d2021"
         view_sliders="#d5c4a1"
         dopesheet_channel="#45858824"
@@ -707,6 +726,8 @@
         face_dot="#fe8019"
         facedot_size="3"
         freestyle_face_mark="#8ec07c33"
+        face_back="#1d202100"
+        face_front="#1d202100"
         editmesh_active="#fbf1c780"
         wire_edit="#d5c4a1"
         edge_select="#fe8019"
@@ -718,10 +739,10 @@
         preview_stitch_unstitchable="#cc241dff"
         preview_stitch_active="#ebdbb223"
         uv_shadow="#7c6f64ff"
-        uv_others="#665c54ff"
         frame_current="#8ec07c"
         metadatabg="#1d2021"
         metadatatext="#fbf1c7"
+        grid="#504945ff"
         handle_free="#1d2021"
         handle_auto="#98971a"
         handle_align="#b16286"
@@ -778,16 +799,22 @@
         scene_strip="#689d6a"
         audio_strip="#fabd2f"
         effect_strip="#d3869b"
-        transition_strip="#8ec07c"
-        meta_strip="#98971a"
+        color_strip="#b16286"
+        meta_strip="#b16286"
+        mask_strip="#665c54"
         text_strip="#b8bb26"
+        active_strip="#d5c4a1"
+        selected_strip="#d79921"
         frame_current="#d65d0e"
         time_scrub_background="#282828e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         keyframe="#fe8019"
         draw_action="#fb4934"
         preview_back="#1d2021"
         metadatabg="#1d2021"
         metadatatext="#fbf1c7"
+        preview_range="#d65d0e66"
         >
         <space>
           <ThemeSpaceGeneric
@@ -919,6 +946,7 @@
         matte_node="#b16286"
         distor_node="#83a598"
         noodle_curving="5"
+        grid_levels="2"
         input_node="#fb4934"
         output_node="#cc241d"
         filter_node="#458588"
@@ -973,10 +1001,11 @@
     <outliner>
       <ThemeOutliner
         match="#689d6a"
-        selected_highlight="#d65d0e"
-        selected_object="#fe8019"
+        selected_highlight="#fe8019"
+        active="#d65d0e"
+        selected_object="#3c3836"
         active_object="#fbf1c7"
-        edited_object="#98971a"
+        edited_object="#98971a66"
         row_alternate="#fbf1c707"
         >
         <space>
@@ -1023,6 +1052,10 @@
         info_info_text="#fbf1c7"
         info_debug="#d5c4a1"
         info_debug_text="#1d2021"
+        info_property="#689d6aff"
+        info_property_text="#fbf1c7"
+        info_operator="#689d6aff"
+        info_operator_text="#fbf1c7"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1133,6 +1166,7 @@
     </console>
     <clip_editor>
       <ThemeClipEditor
+        grid="#1d2021"
         marker_outline="#1d2021"
         marker="#98971a"
         active_marker="#fbf1c7"
@@ -1141,8 +1175,12 @@
         locked_marker="#7c6f64"
         path_before="#cc241d"
         path_after="#458588"
+        path_keyframe_before="#d3869b"
+        path_keyframe_after="#83a598"
         frame_current="#458588"
         time_scrub_background="#282828e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         strips="#1d2021"
         strips_selected="#fe8019"
         metadatabg="#1d2021"

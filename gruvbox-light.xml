@@ -8,12 +8,17 @@
         icon_saturation="0.5"
         widget_emboss="#f9f5d705"
         editor_outline="#f9f5d7"
+        widget_text_cursor="#458588"
+        transparent_checker_primary="#3c3836"
+        transparent_checker_secondary="#282828"
+        transparent_checker_size="8"
         axis_x="#9d0006"
         axis_y="#79740e"
         axis_z="#458588"
         gizmo_hi="#282828"
         gizmo_primary="#b57614"
         gizmo_secondary="#076678"
+        gizmo_view_align="#1d2021"
         gizmo_a="#427b58"
         gizmo_b="#cc241d"
         icon_scene="#504945"
@@ -22,6 +27,7 @@
         icon_object_data="#427b58"
         icon_modifier="#076678"
         icon_shading="#8f3f71"
+        icon_folder="#d5c4a1"
         icon_border_intensity="0"
         >
         <wcol_regular>
@@ -376,6 +382,8 @@
         face_dot="#af3a03"
         facedot_size="3"
         freestyle_face_mark="#427b584d"
+        face_back="#ff0000b3"
+        face_front="#0000ffb3"
         nurb_uline="#98971a"
         nurb_vline="#b16286"
         nurb_sel_uline="#b57614"
@@ -396,17 +404,19 @@
         extra_face_area="#689d6a"
         editmesh_active="#fbf1c7ff"
         normal="#076678"
+        vertex_normal="#458588"
         split_normal="#b16286"
         bone_pose="#076678"
         bone_pose_active="#458588"
         bone_solid="#665c54"
+        bone_locked_weight="#cc241d80"
         bundle_solid="#504945"
         camera_path="#fbf1c7"
         skin_root="#cc241d"
         view_overlay="#fbf1c7"
         transform="#282828"
         frame_current="#427b58"
-        paint_curve_handle="#427b587f"
+        paint_curve_handle="#fbf1c77f"
         paint_curve_pivot="#9d00067f"
         outline_width="1"
         object_origin_size="6"
@@ -432,9 +442,9 @@
             >
             <gradients>
               <ThemeGradientColors
-                show_grad="FALSE"
-                high_gradient="#ebdbb2"
-                gradient="#f9f5d7"
+                background_type="SINGLE_COLOR"
+                high_gradient="#f2e5bc"
+                gradient="#f2e5bc"
                 >
               </ThemeGradientColors>
             </gradients>
@@ -455,6 +465,8 @@
         grid="#fbf1c7"
         frame_current="#458588"
         time_scrub_background="#fbf1c7e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         window_sliders="#928374"
         channels_region="#f2e5bc"
         dopesheet_channel="#458588"
@@ -526,6 +538,7 @@
     <file_browser>
       <ThemeFileBrowser
         selected_file="#d65d0e"
+        row_alternate="#fbf1c70f"
         >
         <space>
           <ThemeSpaceGeneric
@@ -563,6 +576,8 @@
       <ThemeNLAEditor
         grid="#fbf1c7"
         view_sliders="#928374"
+        dopesheet_channel="#458588"
+        nla_track="#3c3836"
         active_action="#d65d0e66"
         active_action_unset="#9283744d"
         preview_range="#d65d0e66"
@@ -580,6 +595,8 @@
         keyframe_border_selected="#f9f5d7ff"
         frame_current="#458588"
         time_scrub_background="#fbf1c7e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         >
         <space>
           <ThemeSpaceGeneric
@@ -627,6 +644,8 @@
         grid="#fbf1c7"
         frame_current="#458588"
         time_scrub_background="#fbf1c7e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         value_sliders="#f9f5d7"
         view_sliders="#504945"
         dopesheet_channel="#45858824"
@@ -707,6 +726,8 @@
         face_dot="#af3a03"
         facedot_size="3"
         freestyle_face_mark="#427b5833"
+        face_back="#1d202100"
+        face_front="#1d202100"
         editmesh_active="#28282880"
         wire_edit="#504945"
         edge_select="#af3a03"
@@ -718,10 +739,10 @@
         preview_stitch_unstitchable="#cc241dff"
         preview_stitch_active="#3c383623"
         uv_shadow="#a89984ff"
-        uv_others="#bdae93ff"
         frame_current="#427b58"
         metadatabg="#f9f5d7"
         metadatatext="#282828"
+        grid="#504945ff"
         handle_free="#f9f5d7"
         handle_auto="#98971a"
         handle_align="#b16286"
@@ -778,16 +799,22 @@
         scene_strip="#689d6a"
         audio_strip="#b57614"
         effect_strip="#8f3f71"
-        transition_strip="#427b58"
-        meta_strip="#98971a"
+        color_strip="#928374"
+        meta_strip="#b16286"
+        mask_strip="#665c54"
         text_strip="#79740e"
+        active_strip="#d5c4a1"
+        selected_strip="#d65d0e"
         frame_current="#d65d0e"
         time_scrub_background="#fbf1c7e6"
+        time_marker_line="#00000060"
+        time_marker_line_selected="#ffffff60"
         keyframe="#af3a03"
         draw_action="#9d0006"
         preview_back="#f9f5d7"
         metadatabg="#f9f5d7"
         metadatatext="#282828"
+        preview_range="#d65d0e66"
         >
         <space>
           <ThemeSpaceGeneric
@@ -919,6 +946,7 @@
         matte_node="#b16286"
         distor_node="#076678"
         noodle_curving="5"
+        grid_levels="2"
         input_node="#9d0006"
         output_node="#cc241d"
         filter_node="#458588"
@@ -973,10 +1001,11 @@
     <outliner>
       <ThemeOutliner
         match="#689d6a"
-        selected_highlight="#d65d0e"
-        selected_object="#fe8019"
-        active_object="#1d2021"
-        edited_object="#98971a"
+        selected_highlight="#d5c4a1"
+        active="#bdae93"
+        selected_object="#665c54"
+        active_object="#f9f5d7"
+        edited_object="#98971a66"
         row_alternate="#28282807"
         >
         <space>
@@ -1023,6 +1052,10 @@
         info_info_text="#282828"
         info_debug="#504945"
         info_debug_text="#f9f5d7"
+        info_property="#689d6aff"
+        info_property_text="#fbf1c7"
+        info_operator="#689d6aff"
+        info_operator_text="#fbf1c7"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1133,6 +1166,7 @@
     </console>
     <clip_editor>
       <ThemeClipEditor
+        grid="#1d2021"
         marker_outline="#f9f5d7"
         marker="#98971a"
         active_marker="#282828"
@@ -1141,8 +1175,12 @@
         locked_marker="#a89984"
         path_before="#cc241d"
         path_after="#458588"
+        path_keyframe_before="#d3869b"
+        path_keyframe_after="#83a598"
         frame_current="#458588"
         time_scrub_background="#fbf1c7e6"
+        time_marker_line="#1d202160"
+        time_marker_line_selected="#fbf1c760"
         strips="#f9f5d7"
         strips_selected="#af3a03"
         metadatabg="#f9f5d7"
