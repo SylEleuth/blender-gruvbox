@@ -641,7 +641,7 @@
     </nla_editor>
     <dopesheet_editor>
       <ThemeDopeSheet
-        grid="#282828"
+        grid="#1d2021"
         frame_current="#458588"
         time_scrub_background="#282828e6"
         time_marker_line="#1d202160"
@@ -676,7 +676,7 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#000000"
+            title="#1d2021"
             text="#a89984"
             text_hi="#fbf1c7"
             header="#3c3836ff"
