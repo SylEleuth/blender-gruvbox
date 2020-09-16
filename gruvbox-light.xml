@@ -78,7 +78,7 @@
         <wcol_radio>
           <ThemeWidgetColors
             outline="#ebdbb2"
-            inner="#d5c4a1ff"
+            inner="#d5c4a16f"
             inner_sel="#fe8019e6"
             item="#282828ff"
             text="#3c3836"
@@ -1104,9 +1104,9 @@
             button_title="#282828"
             button_text="#3c3836"
             button_text_hi="#282828"
-            navigation_bar="#d5c4a1ff"
-            execution_buts="#d5c4a1ff"
-            tab_active="#d5c4a1"
+            navigation_bar="#ebdbb2ff"
+            execution_buts="#ebdbb2ff"
+            tab_active="#ebdbb2ff"
             tab_inactive="#fbf1c7"
             tab_back="#fbf1c7ff"
             tab_outline="#fbf1c7"
