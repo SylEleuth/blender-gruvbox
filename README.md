@@ -2,9 +2,9 @@
 
 Blender 2.80+ theme based on the gruvbox color scheme https://github.com/morhetz/gruvbox
 
-![blender_startup_file](https://user-images.githubusercontent.com/33354262/66078132-55739900-e559-11e9-8ce9-30c6507d04ef.png)
+![gruvbox_dark](https://user-images.githubusercontent.com/33354262/93396462-a2867300-f86f-11ea-86e5-7b589a29c068.jpg)
 
-![blender_light_startup_file](https://user-images.githubusercontent.com/33354262/66160790-ce8af300-e622-11e9-9af2-a0125e2b5759.png)
+![gruvbox_light](https://user-images.githubusercontent.com/33354262/93396467-a5816380-f86f-11ea-8b8b-4382b6599a54.jpg)
 
 Palette
 -------
