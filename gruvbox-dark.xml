@@ -716,6 +716,7 @@
     </dopesheet_editor>
     <image_editor>
       <ThemeImageEditor
+        grid="#504945ff"
         vertex="#1d2021"
         vertex_select="#fe8019"
         vertex_size="3"
@@ -742,7 +743,6 @@
         frame_current="#8ec07c"
         metadatabg="#1d2021"
         metadatatext="#fbf1c7"
-        grid="#504945ff"
         handle_free="#1d2021"
         handle_auto="#98971a"
         handle_align="#b16286"
@@ -849,7 +849,9 @@
       </ThemeSequenceEditor>
     </sequence_editor>
     <properties>
-      <ThemeProperties>
+      <ThemeProperties
+        match="#665c54"
+        >
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
@@ -931,6 +933,7 @@
     </text_editor>
     <node_editor>
       <ThemeNodeEditor
+        grid="#282828"
         node_selected="#d65d0e"
         node_active="#fbf1c7"
         wire="#928374"
@@ -1448,6 +1451,40 @@
         >
       </ThemeBoneColorSet>
     </bone_color_sets>
+    <collection_color>
+      <ThemeCollectionColor
+        color="#fb4934"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#fe8019"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#fabd2f"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#b8bb26"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#83a598"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#d3869b"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#928374"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
+        color="#665c54"
+        >
+      </ThemeCollectionColor>
+    </collection_color>
   </Theme>
   <ThemeStyle>
     <panel_title>
