@@ -1004,9 +1004,9 @@
     <outliner>
       <ThemeOutliner
         match="#689d6a"
-        selected_highlight="#d5c4a1"
-        active="#bdae93"
-        selected_object="#665c54"
+        selected_highlight="#bdae93"
+        active="#d5c4a1"
+        selected_object="#fabd2f"
         active_object="#f9f5d7"
         edited_object="#98971a66"
         row_alternate="#28282807"
@@ -1015,7 +1015,7 @@
           <ThemeSpaceGeneric
             back="#f2e5bc"
             title="#282828"
-            text="#665c54"
+            text="#3c3836"
             text_hi="#282828"
             header="#d5c4a1ff"
             header_text="#3c3836"
