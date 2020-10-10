@@ -358,8 +358,8 @@
         gp_vertex_select="#fe8019"
         gp_vertex_size="3"
         text_grease_pencil="#b8bb26"
-        object_selected="#d65d0e"
-        object_active="#fe8019"
+        object_selected="#fe8019"
+        object_active="#df9921"
         text_keyframe="#fabd2f"
         camera="#1d2021"
         empty="#1d2021"
@@ -1004,10 +1004,10 @@
     <outliner>
       <ThemeOutliner
         match="#689d6a"
-        selected_highlight="#665c54"
-        active="#504945"
-        selected_object="#fabd2f"
-        active_object="#fe8019"
+        selected_highlight="#504945"
+        active="#665c54"
+        selected_object="#fe8019"
+        active_object="#fabd2f"
         edited_object="#98971a66"
         row_alternate="#fbf1c707"
         >
