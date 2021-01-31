@@ -356,10 +356,10 @@
         wire_edit="#3c3836"
         gp_vertex="#3c3836"
         gp_vertex_select="#af3a03"
-        gp_vertex_size="3"
+        gp_vertex_size="4"
         text_grease_pencil="#79740e"
-        object_selected="#af3a03"
-        object_active="#fe8019"
+        object_selected="#d79921"
+        object_active="#d65d0e"
         text_keyframe="#b57614"
         camera="#665c54"
         empty="#665c54"
@@ -367,7 +367,8 @@
         speaker="#665c54"
         vertex="#504945"
         vertex_select="#d65d0e"
-        vertex_size="3"
+        vertex_active="#af3a03"
+        vertex_size="4"
         vertex_bevel="#458588"
         vertex_unreferenced="#f9f5d7"
         edge_select="#fe8019"
@@ -380,7 +381,7 @@
         face="#f9f5d712"
         face_select="#d65d0e6c"
         face_dot="#af3a03"
-        facedot_size="3"
+        facedot_size="4"
         freestyle_face_mark="#427b584d"
         face_back="#ff0000b3"
         face_front="#0000ffb3"
@@ -418,7 +419,7 @@
         frame_current="#427b58"
         paint_curve_handle="#fbf1c77f"
         paint_curve_pivot="#9d00067f"
-        outline_width="1"
+        outline_width="5"
         object_origin_size="6"
         >
         <space>
@@ -476,6 +477,7 @@
         preview_range="#d65d0e66"
         vertex="#f9f5d7"
         vertex_select="#af3a03"
+        vertex_active="#282828"
         vertex_size="6"
         vertex_bevel="#f9f5d7"
         vertex_unreferenced="#f9f5d7"
@@ -719,6 +721,7 @@
         grid="#504945ff"
         vertex="#f9f5d7"
         vertex_select="#af3a03"
+        vertex_active="#282828"
         vertex_size="3"
         vertex_bevel="#f9f5d7"
         vertex_unreferenced="#f9f5d7"
@@ -815,6 +818,7 @@
         metadatabg="#f9f5d7"
         metadatatext="#282828"
         preview_range="#d65d0e66"
+        row_alternate="#2828280d"
         >
         <space>
           <ThemeSpaceGeneric
@@ -851,6 +855,7 @@
     <properties>
       <ThemeProperties
         match="#bdae93"
+        active_modifier="#d5c4a1ff"
         >
         <space>
           <ThemeSpaceGeneric
@@ -933,7 +938,7 @@
     </text_editor>
     <node_editor>
       <ThemeNodeEditor
-        grid="#ebdbb2"
+        grid="#f9f5d7"
         node_selected="#d65d0e"
         node_active="#282828"
         wire="#928374"
@@ -944,7 +949,7 @@
         converter_node="#458588ff"
         color_node="#d79921"
         group_node="#98971ab9"
-        group_socket_node="#f9f5d7"
+        group_socket_node="#d79921"
         frame_node="#f9f5d7cc"
         matte_node="#b16286"
         distor_node="#076678"
@@ -959,6 +964,8 @@
         script_node="#79740e"
         pattern_node="#bdae93"
         layout_node="#bdae93"
+        geometry_node="#689d6a"
+        attribute_node="#076678"
         >
         <space>
           <ThemeSpaceGeneric

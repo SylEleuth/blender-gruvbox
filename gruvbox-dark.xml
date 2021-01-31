@@ -356,10 +356,10 @@
         wire_edit="#a89984"
         gp_vertex="#3c3836"
         gp_vertex_select="#fe8019"
-        gp_vertex_size="3"
+        gp_vertex_size="4"
         text_grease_pencil="#b8bb26"
-        object_selected="#fe8019"
-        object_active="#df9921"
+        object_selected="#d79921"
+        object_active="#d65d0e"
         text_keyframe="#fabd2f"
         camera="#1d2021"
         empty="#1d2021"
@@ -367,7 +367,8 @@
         speaker="#1d2021"
         vertex="#1d2021"
         vertex_select="#fe8019"
-        vertex_size="3"
+        vertex_active="#fbf1c7ff"
+        vertex_size="4"
         vertex_bevel="#458588"
         vertex_unreferenced="#1d2021"
         edge_select="#fe8019"
@@ -380,7 +381,7 @@
         face="#fbf1c712"
         face_select="#fe80196c"
         face_dot="#d65d0e"
-        facedot_size="3"
+        facedot_size="4"
         freestyle_face_mark="#8ec07c4d"
         face_back="#ff0000b3"
         face_front="#0000ffb3"
@@ -418,7 +419,7 @@
         frame_current="#8ec07c"
         paint_curve_handle="#8ec07c7f"
         paint_curve_pivot="#fb49347f"
-        outline_width="1"
+        outline_width="5"
         object_origin_size="6"
         >
         <space>
@@ -476,6 +477,7 @@
         preview_range="#d65d0e66"
         vertex="#1d2021"
         vertex_select="#fe8019"
+        vertex_active="#fbf1c7"
         vertex_size="6"
         vertex_bevel="#1d2021"
         vertex_unreferenced="#1d2021"
@@ -719,6 +721,7 @@
         grid="#504945ff"
         vertex="#1d2021"
         vertex_select="#fe8019"
+        vertex_active="#fbf1c780"
         vertex_size="3"
         vertex_bevel="#1d2021"
         vertex_unreferenced="#1d2021"
@@ -815,6 +818,7 @@
         metadatabg="#1d2021"
         metadatatext="#fbf1c7"
         preview_range="#d65d0e66"
+        row_alternate="#fbf1c70d"
         >
         <space>
           <ThemeSpaceGeneric
@@ -851,6 +855,7 @@
     <properties>
       <ThemeProperties
         match="#665c54"
+        active_modifier="#504945ff"
         >
         <space>
           <ThemeSpaceGeneric
@@ -959,6 +964,8 @@
         script_node="#79740e"
         pattern_node="#665c54"
         layout_node="#665c54"
+        geometry_node="#689d6a"
+        attribute_node="#458588"
         >
         <space>
           <ThemeSpaceGeneric
