@@ -154,7 +154,7 @@
           <ThemeWidgetColors
             outline="#3c3836"
             inner="#504945ff"
-            inner_sel="#504945ff"
+            inner_sel="#665c54ff"
             item="#d65d0ee6"
             text="#ebdbb2"
             text_sel="#fbf1c7"
@@ -373,7 +373,7 @@
         vertex_unreferenced="#1d2021"
         edge_select="#fe8019"
         edge_seam="#cc241d"
-        edge_sharp="#83a598"
+        edge_sharp="#8ec07c"
         edge_crease="#b16286"
         edge_bevel="#458588"
         edge_facesel="#504945"
