@@ -36,7 +36,7 @@
             inner="#d5c4a1"
             inner_sel="#fe8019e6"
             item="#ebdbb2ff"
-            text="#7c6f64"
+            text="#504945"
             text_sel="#ebdbb2"
             show_shaded="FALSE"
             shadetop="0"
@@ -317,16 +317,16 @@
         </wcol_list_item>
         <wcol_state>
           <ThemeWidgetStateColors
-            inner_anim="#af3a03"
-            inner_anim_sel="#d65d0e"
-            inner_key="#79740e"
-            inner_key_sel="#b57614"
+            inner_anim="#b8bb26"
+            inner_anim_sel="#98971a"
+            inner_key="#fabd2f"
+            inner_key_sel="#d79921"
             inner_driven="#b16286"
             inner_driven_sel="#8f3f71"
-            inner_overridden="#076678"
+            inner_overridden="#83a598"
             inner_overridden_sel="#458588"
-            inner_changed="#d79921"
-            inner_changed_sel="#b57614"
+            inner_changed="#fe8019"
+            inner_changed_sel="#d65d0e"
             blend="0.5"
             >
           </ThemeWidgetStateColors>
@@ -464,16 +464,16 @@
     <graph_editor>
       <ThemeGraphEditor
         grid="#fbf1c7"
-        frame_current="#458588"
+        frame_current="#83a598"
         time_scrub_background="#fbf1c7e6"
         time_marker_line="#1d202160"
         time_marker_line_selected="#fbf1c760"
         window_sliders="#928374"
-        channels_region="#f2e5bc"
+        channels_region="#d5c4a1"
         dopesheet_channel="#458588"
-        dopesheet_subchannel="#458588"
+        dopesheet_subchannel="#83a598"
         channel_group="#98971a"
-        active_channels_group="#79740e"
+        active_channels_group="#b8bb26"
         preview_range="#d65d0e66"
         vertex="#f9f5d7"
         vertex_select="#af3a03"
@@ -504,7 +504,7 @@
             text_hi="#282828"
             header="#fbf1c7ff"
             header_text="#3c3836"
-            header_text_hi="#282828"
+            header_text_hi="#fbf1c7"
             button="#fbf1c7ff"
             button_title="#282828"
             button_text="#3c3836"
@@ -530,8 +530,8 @@
           <ThemeSpaceListGeneric
             list="#fbf1c7"
             list_title="#282828"
-            list_text="#665c54"
-            list_text_hi="#282828"
+            list_text="#282828"
+            list_text_hi="#fbf1c7"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -579,7 +579,7 @@
         grid="#fbf1c7"
         view_sliders="#928374"
         dopesheet_channel="#458588"
-        nla_track="#3c3836"
+        nla_track="#665c54"
         active_action="#d65d0e66"
         active_action_unset="#9283744d"
         preview_range="#d65d0e66"
@@ -634,8 +634,8 @@
           <ThemeSpaceListGeneric
             list="#fbf1c7"
             list_title="#282828"
-            list_text="#665c54"
-            list_text_hi="#282828"
+            list_text="#282828"
+            list_text_hi="#fbf1c7"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -644,18 +644,18 @@
     <dopesheet_editor>
       <ThemeDopeSheet
         grid="#fbf1c7"
-        frame_current="#83a698"
+        frame_current="#83a598"
         time_scrub_background="#fbf1c7e6"
         time_marker_line="#1d202160"
         time_marker_line_selected="#fbf1c760"
         value_sliders="#f9f5d7"
         view_sliders="#504945"
-        dopesheet_channel="#45858824"
-        dopesheet_subchannel="#45858824"
-        channels="#f2e5bcff"
-        channels_selected="#427b5844"
-        channel_group="#98971a37"
-        active_channels_group="#79740e55"
+        dopesheet_channel="#458588"
+        dopesheet_subchannel="#83a598"
+        channels="#d5c4a1"
+        channels_selected="#b8bb2644"
+        channel_group="#98971a"
+        active_channels_group="#b8bb26"
         long_key="#f9f5d780"
         long_key_selected="#af3a03cc"
         keyframe="#282828"
@@ -671,7 +671,7 @@
         keyframe_border="#f9f5d7ff"
         keyframe_border_selected="#f9f5d7ff"
         keyframe_scale_factor="1"
-        summary="#cc241d66"
+        summary="#af3a0366"
         preview_range="#d65d0e66"
         interpolation_line="#427b58cc"
         >
@@ -683,7 +683,7 @@
             text_hi="#282828"
             header="#fbf1c7ff"
             header_text="#3c3836"
-            header_text_hi="#ebdbb2"
+            header_text_hi="#fbf1c7"
             button="#fbf1c7ff"
             button_title="#282828"
             button_text="#3c3836"
@@ -709,8 +709,8 @@
           <ThemeSpaceListGeneric
             list="#fbf1c7"
             list_title="#282828"
-            list_text="#504945"
-            list_text_hi="#282828"
+            list_text="#282828"
+            list_text_hi="#fbf1c7"
             >
           </ThemeSpaceListGeneric>
         </space_list>

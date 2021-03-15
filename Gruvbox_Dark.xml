@@ -34,7 +34,7 @@
           <ThemeWidgetColors
             outline="#3c3836"
             inner="#504945ff"
-            inner_sel="#504945e6"
+            inner_sel="#d65d0ee6"
             item="#3c3836ff"
             text="#a89984"
             text_sel="#fbf1c7"
@@ -317,16 +317,16 @@
         </wcol_list_item>
         <wcol_state>
           <ThemeWidgetStateColors
-            inner_anim="#fe8019"
-            inner_anim_sel="#d65d0e"
-            inner_key="#b8bb26"
-            inner_key_sel="#98971a"
-            inner_driven="#d3869b"
-            inner_driven_sel="#b16286"
+            inner_anim="#b8bb26"
+            inner_anim_sel="#98971a"
+            inner_key="#fabd2f"
+            inner_key_sel="#d79921"
+            inner_driven="#b16286"
+            inner_driven_sel="#8f3f71"
             inner_overridden="#83a598"
             inner_overridden_sel="#458588"
-            inner_changed="#fabd2f"
-            inner_changed_sel="#d79921"
+            inner_changed="#fe8019"
+            inner_changed_sel="#d65d0e"
             blend="0.5"
             >
           </ThemeWidgetStateColors>
@@ -471,9 +471,9 @@
         window_sliders="#928374"
         channels_region="#32302f"
         dopesheet_channel="#458588"
-        dopesheet_subchannel="#458588"
-        channel_group="#98971a"
-        active_channels_group="#b8bb26"
+        dopesheet_subchannel="#83a598"
+        channel_group="#79740e"
+        active_channels_group="#98971a"
         preview_range="#d65d0e66"
         vertex="#1d2021"
         vertex_select="#fe8019"
@@ -530,8 +530,8 @@
           <ThemeSpaceListGeneric
             list="#282828"
             list_title="#fbf1c7"
-            list_text="#bdae93"
-            list_text_hi="#fbf1c7"
+            list_text="#fbf1c7"
+            list_text_hi="#fabd2f"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -634,8 +634,8 @@
           <ThemeSpaceListGeneric
             list="#282828"
             list_title="#fbf1c7"
-            list_text="#bdae93"
-            list_text_hi="#fbf1c7"
+            list_text="#fbf1c7"
+            list_text_hi="#fabd2f"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -651,11 +651,11 @@
         value_sliders="#1d2021"
         view_sliders="#d5c4a1"
         dopesheet_channel="#45858824"
-        dopesheet_subchannel="#45858824"
+        dopesheet_subchannel="#83a59824"
         channels="#32302fff"
-        channels_selected="#8ec07c44"
-        channel_group="#98971a37"
-        active_channels_group="#b8bb2655"
+        channels_selected="#b8bb2644"
+        channel_group="#79740e37"
+        active_channels_group="#98971a55"
         long_key="#1d202180"
         long_key_selected="#fe8019cc"
         keyframe="#fbf1c7"
@@ -671,7 +671,7 @@
         keyframe_border="#1d2021ff"
         keyframe_border_selected="#1d2021ff"
         keyframe_scale_factor="1"
-        summary="#cc241d66"
+        summary="#af3a0366"
         preview_range="#d65d0e66"
         interpolation_line="#8ec07ccc"
         >
@@ -709,8 +709,8 @@
           <ThemeSpaceListGeneric
             list="#282828"
             list_title="#fbf1c7"
-            list_text="#d5c4a1"
-            list_text_hi="#fbf1c7"
+            list_text="#fbf1c7"
+            list_text_hi="#fabd2f"
             >
           </ThemeSpaceListGeneric>
         </space_list>
