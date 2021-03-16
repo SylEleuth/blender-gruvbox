@@ -762,14 +762,14 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#ebdbb2"
+            back="#f2e5bc"
             title="#3c3836"
             text="#3c3836"
             text_hi="#282828"
             header="#ebdbb2ff"
             header_text="#3c3836"
             header_text_hi="#282828"
-            button="#f2e5bc00"
+            button="#ebdbb200"
             button_title="#282828"
             button_text="#3c3836"
             button_text_hi="#282828"
@@ -859,7 +859,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#ebdbb2"
+            back="#f2e5bc"
             title="#504945"
             text="#3c3836"
             text_hi="#282828"
@@ -1010,7 +1010,7 @@
     </node_editor>
     <outliner>
       <ThemeOutliner
-        match="#689d6a"
+        match="#bdae93"
         selected_highlight="#bdae93"
         active="#d5c4a1"
         selected_object="#fabd2f"
@@ -1024,7 +1024,7 @@
             title="#282828"
             text="#3c3836"
             text_hi="#282828"
-            header="#d5c4a1ff"
+            header="#ebdbb2ff"
             header_text="#3c3836"
             header_text_hi="#282828"
             button="#ebdbb2ff"
@@ -1316,6 +1316,42 @@
         </space>
       </ThemeStatusBar>
     </statusbar>
+    <spreadsheet>
+      <ThemeSpreadsheet
+        row_alternate="#fbf1c707"
+        >
+        <space>
+          <ThemeSpaceGeneric
+            back="#f2e5bc"
+            title="#282828"
+            text="#3c3836"
+            text_hi="#282828"
+            header="#ebdbb2ff"
+            header_text="#3c3836"
+            header_text_hi="#282828"
+            button="#ebdbb2ff"
+            button_title="#282828"
+            button_text="#3c3836"
+            button_text_hi="#282828"
+            navigation_bar="#f9f5d700"
+            execution_buts="#f9f5d700"
+            tab_active="#d5c4a1"
+            tab_inactive="#fbf1c7"
+            tab_back="#fbf1c7ff"
+            tab_outline="#fbf1c7"
+            >
+            <panelcolors>
+              <ThemePanelColors
+                header="#ebdbb2cc"
+                back="#f2e5bcb3"
+                sub_back="#f9f5d73e"
+                >
+              </ThemePanelColors>
+            </panelcolors>
+          </ThemeSpaceGeneric>
+        </space>
+      </ThemeSpreadsheet>
+    </spreadsheet>
     <bone_color_sets>
       <ThemeBoneColorSet
         normal="#9a0000"

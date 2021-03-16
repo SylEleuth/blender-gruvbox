@@ -427,10 +427,10 @@
             title="#ebdbb2"
             text="#ebdbb2"
             text_hi="#fbf1c7"
-            header="#32302f00"
+            header="#3c383600"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
-            button="#32302f00"
+            button="#3c383600"
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
@@ -500,12 +500,12 @@
           <ThemeSpaceGeneric
             back="#3c3836"
             title="#fbf1c7"
-            text="#a89984"
+            text="#ebdbb2"
             text_hi="#fbf1c7"
-            header="#282828ff"
+            header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
-            button="#282828ff"
+            button="#3c3836ff"
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
@@ -544,16 +544,16 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#32302f"
+            back="#3c3836"
             title="#fbf1c7"
-            text="#fbf1c7"
+            text="#ebdbb2"
             text_hi="#fbf1c7"
-            header="#282828ff"
-            header_text="#fbf1c7"
+            header="#3c3836ff"
+            header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
             button="#3c3836ff"
             button_title="#fbf1c7"
-            button_text="#fbf1c7"
+            button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
             navigation_bar="#1d202100"
             execution_buts="#1d202100"
@@ -604,12 +604,12 @@
           <ThemeSpaceGeneric
             back="#3c3836"
             title="#fbf1c7"
-            text="#a89984"
+            text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
-            button="#282828ff"
+            button="#ebdbb2ff"
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
@@ -678,13 +678,13 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#1d2021"
-            text="#a89984"
+            title="#fbf1c7"
+            text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
-            button="#282828ff"
+            button="#3c3836ff"
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
@@ -763,13 +763,13 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#ebdbb2"
+            title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
-            button="#32302f00"
+            button="#3c383600"
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
@@ -823,8 +823,8 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#ebdbb2"
-            text="#a89984"
+            title="#fbf1c7"
+            text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
             header_text="#ebdbb2"
@@ -860,7 +860,7 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#d5c4a1"
+            title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
@@ -870,7 +870,7 @@
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
-            navigation_bar="#32302fff"
+            navigation_bar="#1d2021ff"
             execution_buts="#1d202100"
             tab_active="#504945"
             tab_inactive="#282828"
@@ -906,11 +906,11 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#2828282"
-            title="#ebdbb2"
+            back="#282828"
+            title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
-            header="#3c383600"
+            header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
             button="#3c3836ff"
@@ -938,7 +938,7 @@
     </text_editor>
     <node_editor>
       <ThemeNodeEditor
-        grid="#282828"
+        grid="#3c3836"
         node_selected="#d65d0e"
         node_active="#fbf1c7"
         wire="#928374"
@@ -969,14 +969,14 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282828"
-            title="#ebdbb2"
+            back="#3c3836"
+            title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
-            button="#3c383600"
+            button="#3c3836ff"
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
@@ -1010,7 +1010,7 @@
     </node_editor>
     <outliner>
       <ThemeOutliner
-        match="#689d6a"
+        match="#665c54"
         selected_highlight="#504945"
         active="#665c54"
         selected_object="#fe8019"
@@ -1020,11 +1020,11 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#32302f"
+            back="#3c3836"
             title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
-            header="#504945ff"
+            header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
             button="#3c3836ff"
@@ -1070,7 +1070,7 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#ebdbb2"
+            title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
@@ -1104,7 +1104,7 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#ebdbb2"
+            title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
@@ -1145,7 +1145,7 @@
         <space>
           <ThemeSpaceGeneric
             back="#2828282"
-            title="#ebdbb2"
+            title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
@@ -1176,7 +1176,7 @@
     </console>
     <clip_editor>
       <ThemeClipEditor
-        grid="#1d2021"
+        grid="#3c3836"
         marker_outline="#1d2021"
         marker="#98971a"
         active_marker="#fbf1c7"
@@ -1210,8 +1210,8 @@
         <space>
           <ThemeSpaceGeneric
             back="#3c3836"
-            title="#ebdbb2"
-            text="#a89984"
+            title="#fbf1c7"
+            text="#ebdbb2"
             text_hi="#fbf1c7"
             header="#3c3836ff"
             header_text="#ebdbb2"
@@ -1294,8 +1294,8 @@
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
             button="#32302fff"
-            button_title="#1d2021"
-            button_text="#1d2021"
+            button_title="#fbf1c7"
+            button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
             navigation_bar="#1d202100"
             execution_buts="#1d202100"
@@ -1316,6 +1316,42 @@
         </space>
       </ThemeStatusBar>
     </statusbar>
+    <spreadsheet>
+      <ThemeSpreadsheet
+        row_alternate="#fbf1c707"
+        >
+        <space>
+          <ThemeSpaceGeneric
+            back="#3c3836"
+            title="#fbf1c7"
+            text="#ebdbb2"
+            text_hi="#fbf1c7"
+            header="#3c3836ff"
+            header_text="#ebdbb2"
+            header_text_hi="#fbf1c7"
+            button="#3c3836ff"
+            button_title="#fbf1c7"
+            button_text="#ebdbb2"
+            button_text_hi="#fbf1c7"
+            navigation_bar="#1d202100"
+            execution_buts="#1d202100"
+            tab_active="#504945"
+            tab_inactive="#282828"
+            tab_back="#282828ff"
+            tab_outline="#282828"
+            >
+            <panelcolors>
+              <ThemePanelColors
+                header="#3c3836cc"
+                back="#32302fb3"
+                sub_back="#1d20213e"
+                >
+              </ThemePanelColors>
+            </panelcolors>
+          </ThemeSpaceGeneric>
+        </space>
+      </ThemeSpreadsheet>
+    </spreadsheet>
     <bone_color_sets>
       <ThemeBoneColorSet
         normal="#9a0000"
