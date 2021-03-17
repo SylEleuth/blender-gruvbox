@@ -93,7 +93,7 @@
         <wcol_text>
           <ThemeWidgetColors
             outline="#3c3836"
-            inner="#1d2021ff"
+            inner="#282828ff"
             inner_sel="#504945ff"
             item="#1d2021ff"
             text="#ebdbb2"
@@ -669,9 +669,9 @@
         keyframe_movehold="#504945"
         keyframe_movehold_selected="#d79921"
         keyframe_border="#1d2021ff"
-        keyframe_border_selected="#1d2021ff"
+        keyframe_border_selected="#fbf1c7ff"
         keyframe_scale_factor="1"
-        summary="#af3a0366"
+        summary="#fe801966"
         preview_range="#d65d0e66"
         interpolation_line="#8ec07ccc"
         >
@@ -794,7 +794,7 @@
     </image_editor>
     <sequence_editor>
       <ThemeSequenceEditor
-        grid="#3c3836"
+        grid="#665c54"
         window_sliders="#a89984"
         movie_strip="#076678"
         movieclip_strip="#d65d0e"
@@ -892,7 +892,7 @@
     <text_editor>
       <ThemeTextEditor
         line_numbers="#d5c4a1"
-        line_numbers_background="#1d2021"
+        line_numbers_background="#282828"
         selected_text="#458588"
         cursor="#cc241d"
         syntax_builtin="#fb4934"
@@ -906,7 +906,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#282828"
+            back="#3c3836"
             title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
@@ -1144,7 +1144,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#2828282"
+            back="#3c3836"
             title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
