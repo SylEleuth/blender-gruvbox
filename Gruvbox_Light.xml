@@ -893,7 +893,7 @@
       <ThemeTextEditor
         line_numbers="#928374"
         line_numbers_background="#f2e5bc"
-        selected_text="#458588"
+        selected_text="#83A598"
         cursor="#cc241d"
         syntax_builtin="#9d0006"
         syntax_symbols="#af3a03"
@@ -1011,10 +1011,10 @@
     <outliner>
       <ThemeOutliner
         match="#bdae93"
-        selected_highlight="#bdae93"
+        selected_highlight="#ebdbb2"
         active="#d5c4a1"
-        selected_object="#fabd2f"
-        active_object="#f9f5d7"
+        selected_object="#d79921"
+        active_object="#d65d0e"
         edited_object="#98971a66"
         row_alternate="#28282807"
         >

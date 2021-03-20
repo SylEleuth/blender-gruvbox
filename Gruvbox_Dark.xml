@@ -893,7 +893,7 @@
       <ThemeTextEditor
         line_numbers="#d5c4a1"
         line_numbers_background="#282828"
-        selected_text="#458588"
+        selected_text="#83A598"
         cursor="#cc241d"
         syntax_builtin="#fb4934"
         syntax_symbols="#fe8019"
@@ -1013,8 +1013,8 @@
         match="#665c54"
         selected_highlight="#504945"
         active="#665c54"
-        selected_object="#fe8019"
-        active_object="#fabd2f"
+        selected_object="#fabd2f"
+        active_object="#fe8019"
         edited_object="#98971a66"
         row_alternate="#fbf1c707"
         >
