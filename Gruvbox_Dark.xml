@@ -27,7 +27,7 @@
         icon_object_data="#8ec07c"
         icon_modifier="#83a598"
         icon_shading="#d3869b"
-        icon_folder="#d5c4a1"
+        icon_folder="#D79921"
         icon_border_intensity="0"
         >
         <wcol_regular>
@@ -735,7 +735,7 @@
         editmesh_active="#fbf1c780"
         wire_edit="#d5c4a1"
         edge_select="#fe8019"
-        scope_back="#fb4934ff"
+        scope_back="#504945ff"
         preview_stitch_face="#98971a33"
         preview_stitch_edge="#d3869b33"
         preview_stitch_vert="#45858833"
