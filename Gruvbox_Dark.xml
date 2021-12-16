@@ -9,6 +9,7 @@
         widget_emboss="#1d202105"
         editor_outline="#1d2021"
         widget_text_cursor="#458588"
+        panel_roundness="0.4"
         transparent_checker_primary="#3c3836"
         transparent_checker_secondary="#282828"
         transparent_checker_size="8"
@@ -333,7 +334,7 @@
         </wcol_state>
         <wcol_tab>
           <ThemeWidgetColors
-            outline="#1d2021"
+            outline="#282828"
             inner="#282828ff"
             inner_sel="#3c3836ff"
             item="#282828ff"
@@ -463,7 +464,7 @@
     </view_3d>
     <graph_editor>
       <ThemeGraphEditor
-        grid="#282828"
+        grid="#504945"
         frame_current="#458588"
         time_scrub_background="#282828e6"
         time_marker_line="#1d202160"
@@ -528,7 +529,7 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#282828"
+            list="#3c3836"
             list_title="#fbf1c7"
             list_text="#fbf1c7"
             list_text_hi="#fabd2f"
@@ -576,7 +577,7 @@
     </file_browser>
     <nla_editor>
       <ThemeNLAEditor
-        grid="#282828"
+        grid="#504945"
         view_sliders="#928374"
         dopesheet_channel="#458588"
         nla_track="#3c3836"
@@ -632,7 +633,7 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#282828"
+            list="#3c3836"
             list_title="#fbf1c7"
             list_text="#fbf1c7"
             list_text_hi="#fabd2f"
@@ -643,7 +644,7 @@
     </nla_editor>
     <dopesheet_editor>
       <ThemeDopeSheet
-        grid="#1d2021"
+        grid="#504945"
         frame_current="#458588"
         time_scrub_background="#282828e6"
         time_marker_line="#1d202160"
@@ -707,7 +708,7 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#282828"
+            list="#3c3836"
             list_title="#fbf1c7"
             list_text="#fbf1c7"
             list_text_hi="#fabd2f"
@@ -794,7 +795,7 @@
     </image_editor>
     <sequence_editor>
       <ThemeSequenceEditor
-        grid="#665c54"
+        grid="#504945"
         window_sliders="#a89984"
         movie_strip="#076678"
         movieclip_strip="#d65d0e"
@@ -870,7 +871,7 @@
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
-            navigation_bar="#1d2021ff"
+            navigation_bar="#282828ff"
             execution_buts="#1d202100"
             tab_active="#504945"
             tab_inactive="#282828"
@@ -954,7 +955,8 @@
         matte_node="#b16286"
         distor_node="#83a598"
         noodle_curving="5"
-        grid_levels="2"
+        grid_levels="7"
+        dash_alpha="0.5"
         input_node="#fb4934"
         output_node="#cc241d"
         filter_node="#b16286"
@@ -969,7 +971,7 @@
         >
         <space>
           <ThemeSpaceGeneric
-            back="#3c3836"
+            back="#282828"
             title="#fbf1c7"
             text="#ebdbb2"
             text_hi="#fbf1c7"
@@ -999,10 +1001,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#282828"
+            list="#3c3836"
             list_title="#fbf1c7"
-            list_text="#cccccc"
-            list_text_hi="#fbf1c7"
+            list_text="#fbf1c7"
+            list_text_hi="#fabd2f"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -1176,7 +1178,7 @@
     </console>
     <clip_editor>
       <ThemeClipEditor
-        grid="#3c3836"
+        grid="#504945"
         marker_outline="#1d2021"
         marker="#98971a"
         active_marker="#fbf1c7"
@@ -1239,10 +1241,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#282828"
-            list_title="#1d2021"
-            list_text="#1d2021"
-            list_text_hi="#fbf1c7"
+            list="#3c3836"
+            list_title="#fbf1c7"
+            list_text="#fbf1c7"
+            list_text_hi="#fabd2f"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -1350,6 +1352,15 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#3c3836"
+            list_title="#fbf1c7"
+            list_text="#fbf1c7"
+            list_text_hi="#fabd2f"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
       </ThemeSpreadsheet>
     </spreadsheet>
     <bone_color_sets>
@@ -1516,24 +1527,61 @@
         >
       </ThemeCollectionColor>
       <ThemeCollectionColor
+        color="#8f3f71"
+        >
+      </ThemeCollectionColor>
+      <ThemeCollectionColor
         color="#d3869b"
         >
       </ThemeCollectionColor>
       <ThemeCollectionColor
-        color="#928374"
-        >
-      </ThemeCollectionColor>
-      <ThemeCollectionColor
-        color="#665c54"
+        color="#B57614"
         >
       </ThemeCollectionColor>
     </collection_color>
+    <strip_color>
+      <ThemeStripColor
+        color="#fb4934"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#fe8019"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#fabd2f"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#b8bb26"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#83a598"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#8f3f71"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#d3869b"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#b57614"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#665c54"
+        >
+      </ThemeStripColor>
+    </strip_color>
   </Theme>
   <ThemeStyle>
     <panel_title>
       <ThemeFontStyle
         points="12"
-        font_kerning_style="FITTED"
         shadow="3"
         shadow_offset_x="0"
         shadow_offset_y="-1"
@@ -1545,7 +1593,6 @@
     <widget_label>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="3"
         shadow_offset_x="0"
         shadow_offset_y="-1"
@@ -1557,7 +1604,6 @@
     <widget>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="-1"
