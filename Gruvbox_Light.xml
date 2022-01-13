@@ -9,6 +9,7 @@
         widget_emboss="#f9f5d705"
         editor_outline="#f9f5d7"
         widget_text_cursor="#83a598"
+        panel_roundness="0.4"
         transparent_checker_primary="#3c3836"
         transparent_checker_secondary="#282828"
         transparent_checker_size="8"
@@ -810,8 +811,8 @@
         selected_strip="#fe8019"
         frame_current="#458588"
         time_scrub_background="#fbf1c7e6"
-        time_marker_line="#00000060"
-        time_marker_line_selected="#ffffff60"
+        time_marker_line="#28282860"
+        time_marker_line_selected="#d65d0e60"
         keyframe="#af3a03"
         draw_action="#9d0006"
         preview_back="#f9f5d7"
@@ -955,6 +956,7 @@
         distor_node="#076678"
         noodle_curving="5"
         grid_levels="2"
+        dash_alpha="0.5"
         input_node="#fb4934"
         output_node="#cc241d"
         filter_node="#b16286"
@@ -1181,7 +1183,7 @@
         marker="#98971a"
         active_marker="#282828"
         selected_marker="#b57614"
-        disabled_marker="#7f0000"
+        disabled_marker="#9d0006"
         locked_marker="#a89984"
         path_before="#cc241d"
         path_after="#458588"
@@ -1350,6 +1352,15 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#3c3836"
+            list_title="#fbf1c7"
+            list_text="#fbf1c7"
+            list_text_hi="#fabd2f"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
       </ThemeSpreadsheet>
     </spreadsheet>
     <bone_color_sets>
@@ -1417,8 +1428,8 @@
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#1e2024"
-        select="#484c56"
+        normal="#1d2021"
+        select="#504945"
         active="#282828"
         show_colored_constraints="FALSE"
         >
@@ -1459,37 +1470,37 @@
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#f9f5d7"
-        select="#f9f5d7"
-        active="#f9f5d7"
+        normal="#ebdbb2"
+        select="#ebdbb2"
+        active="#ebdbb2"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#f9f5d7"
-        select="#f9f5d7"
-        active="#f9f5d7"
+        normal="#ebdbb2"
+        select="#ebdbb2"
+        active="#ebdbb2"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#f9f5d7"
-        select="#f9f5d7"
-        active="#f9f5d7"
+        normal="#ebdbb2"
+        select="#ebdbb2"
+        active="#ebdbb2"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#f9f5d7"
-        select="#f9f5d7"
-        active="#f9f5d7"
+        normal="#ebdbb2"
+        select="#ebdbb2"
+        active="#ebdbb2"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
       <ThemeBoneColorSet
-        normal="#f9f5d7"
-        select="#f9f5d7"
-        active="#f9f5d7"
+        normal="#ebdbb2"
+        select="#ebdbb2"
+        active="#ebdbb2"
         show_colored_constraints="FALSE"
         >
       </ThemeBoneColorSet>
@@ -1528,12 +1539,49 @@
         >
       </ThemeCollectionColor>
     </collection_color>
+    <strip_color>
+      <ThemeStripColor
+        color="#fb4934"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#fe8019"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#fabd2f"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#b8bb26"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#83a598"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#8f3f71"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#d3869b"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#b57614"
+        >
+      </ThemeStripColor>
+      <ThemeStripColor
+        color="#665c54"
+        >
+      </ThemeStripColor>
+    </strip_color>
   </Theme>
   <ThemeStyle>
     <panel_title>
       <ThemeFontStyle
         points="12"
-        font_kerning_style="FITTED"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1545,7 +1593,6 @@
     <widget_label>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1557,7 +1604,6 @@
     <widget>
       <ThemeFontStyle
         points="11"
-        font_kerning_style="FITTED"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="0"
