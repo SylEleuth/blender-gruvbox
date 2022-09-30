@@ -316,6 +316,21 @@
             >
           </ThemeWidgetColors>
         </wcol_list_item>
+        <wcol_view_item>
+          <ThemeWidgetColors
+            outline="#cc241d"
+            inner="#cc241d"
+            inner_sel="#cc241d"
+            item="#cc241d"
+            text="#cc241d"
+            text_sel="#cc241d"
+            show_shaded="FALSE"
+            shadetop="0"
+            shadedown="0"
+            roundness="0.4"
+            >
+          </ThemeWidgetColors>
+        </wcol_view_item>
         <wcol_state>
           <ThemeWidgetStateColors
             inner_anim="#b8bb26"
@@ -851,6 +866,15 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#3c3836"
+            list_title="#ebdbb2"
+            list_text="#ebdbb2"
+            list_text_hi="#ebdbb2"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
       </ThemeSequenceEditor>
     </sequence_editor>
     <properties>
@@ -1183,7 +1207,7 @@
         marker="#98971a"
         active_marker="#fbf1c7"
         selected_marker="#fabd2f"
-        disabled_marker="#7f0000"
+        disabled_marker="#cc241d"
         locked_marker="#7c6f64"
         path_before="#cc241d"
         path_after="#458588"
