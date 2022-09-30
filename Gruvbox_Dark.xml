@@ -318,12 +318,12 @@
         </wcol_list_item>
         <wcol_view_item>
           <ThemeWidgetColors
-            outline="#cc241d"
-            inner="#cc241d"
-            inner_sel="#cc241d"
-            item="#cc241d"
-            text="#cc241d"
-            text_sel="#cc241d"
+            outline="#2d2d2d"
+            inner="#303030ff"
+            inner_sel="#4772b3ff"
+            item="#4772b3ff"
+            text="#cccccc"
+            text_sel="#ffffff"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
