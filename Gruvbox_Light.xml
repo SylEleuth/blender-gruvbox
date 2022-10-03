@@ -316,6 +316,21 @@
             >
           </ThemeWidgetColors>
         </wcol_list_item>
+        <wcol_view_item>
+          <ThemeWidgetColors
+            outline="#2d2d2d"
+            inner="#303030ff"
+            inner_sel="#4772b3ff"
+            item="#4772b3ff"
+            text="#cccccc"
+            text_sel="#ffffff"
+            show_shaded="FALSE"
+            shadetop="0"
+            shadedown="0"
+            roundness="0.4"
+            >
+          </ThemeWidgetColors>
+        </wcol_view_item>
         <wcol_state>
           <ThemeWidgetStateColors
             inner_anim="#b8bb26"
@@ -815,8 +830,8 @@
         time_marker_line_selected="#d65d0e60"
         keyframe="#af3a03"
         draw_action="#9d0006"
-        preview_back="#f9f5d7"
-        metadatabg="#f9f5d7"
+        preview_back="#ebdbb2"
+        metadatabg="#ebdbb2"
         metadatatext="#282828"
         preview_range="#d65d0e66"
         row_alternate="#2828280d"
@@ -851,6 +866,15 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <space_list>
+          <ThemeSpaceListGeneric
+            list="#fbf1c7"
+            list_title="#3c3836"
+            list_text="#3c3836"
+            list_text_hi="#fbf1c7"
+            >
+          </ThemeSpaceListGeneric>
+        </space_list>
       </ThemeSequenceEditor>
     </sequence_editor>
     <properties>
@@ -1003,8 +1027,8 @@
           <ThemeSpaceListGeneric
             list="#fbf1c7"
             list_title="#282828"
-            list_text="#cccccc"
-            list_text_hi="#282828"
+            list_text="#282828"
+            list_text_hi="#fbf1c7"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -1178,7 +1202,7 @@
     </console>
     <clip_editor>
       <ThemeClipEditor
-        grid="#1d2021"
+        grid="#bdae93"
         marker_outline="#f9f5d7"
         marker="#98971a"
         active_marker="#282828"
@@ -1242,9 +1266,9 @@
         <space_list>
           <ThemeSpaceListGeneric
             list="#fbf1c7"
-            list_title="#f9f5d7"
-            list_text="#f9f5d7"
-            list_text_hi="#282828"
+            list_title="#282828"
+            list_text="#282828"
+            list_text_hi="#fbf1c7"
             >
           </ThemeSpaceListGeneric>
         </space_list>
@@ -1354,10 +1378,10 @@
         </space>
         <space_list>
           <ThemeSpaceListGeneric
-            list="#3c3836"
-            list_title="#fbf1c7"
-            list_text="#fbf1c7"
-            list_text_hi="#fabd2f"
+            list="#fbf1c7"
+            list_title="#282828"
+            list_text="#282828"
+            list_text_hi="#fbf1c7"
             >
           </ThemeSpaceListGeneric>
         </space_list>
