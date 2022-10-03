@@ -625,7 +625,7 @@
             header="#3c3836ff"
             header_text="#ebdbb2"
             header_text_hi="#fbf1c7"
-            button="#ebdbb2ff"
+            button="#3c3836ff"
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
@@ -758,7 +758,7 @@
         preview_stitch_stitchable="#b8bb26ff"
         preview_stitch_unstitchable="#cc241dff"
         preview_stitch_active="#ebdbb223"
-        uv_shadow="#7c6f64ff"
+        uv_shadow="#a89984ff"
         frame_current="#8ec07c"
         metadatabg="#1d2021"
         metadatatext="#fbf1c7"
@@ -871,7 +871,7 @@
             list="#3c3836"
             list_title="#ebdbb2"
             list_text="#ebdbb2"
-            list_text_hi="#ebdbb2"
+            list_text_hi="#fabd2f"
             >
           </ThemeSpaceListGeneric>
         </space_list>
