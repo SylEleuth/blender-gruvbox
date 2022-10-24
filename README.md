@@ -10,9 +10,9 @@ Blender 2.80+ theme based on the gruvbox color scheme https://github.com/morhetz
 Installation
 -----------
 
-Download repository (or clone it) and unpack a file
+Latest version is ready for download [on "Releases" page](https://github.com/SylEleuth/blender-gruvbox/releases)
 
-![theme install 01_001](https://user-images.githubusercontent.com/33354262/77268724-baa17f00-6c9e-11ea-9fb2-72a4eee7d72d.png)
+Alternatively You can download a whole repository (or clone it) and unpack a file
 
 In Blender's top menu click **Edit** and then **Preferences**
 
