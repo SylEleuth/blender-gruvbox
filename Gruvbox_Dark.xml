@@ -318,12 +318,12 @@
         </wcol_list_item>
         <wcol_view_item>
           <ThemeWidgetColors
-            outline="#2d2d2d"
-            inner="#303030ff"
-            inner_sel="#4772b3ff"
-            item="#4772b3ff"
-            text="#cccccc"
-            text_sel="#ffffff"
+            outline="#282828"
+            inner="#28282800"
+            inner_sel="#665c54ff"
+            item="#bdae93ff"
+            text="#ebdbb2"
+            text_sel="#fbf1c7"
             show_shaded="FALSE"
             shadetop="0"
             shadedown="0"
@@ -905,9 +905,9 @@
             >
             <panelcolors>
               <ThemePanelColors
-                header="#3c383600"
-                back="#1d202128"
-                sub_back="#1d202124"
+                header="#28282880"
+                back="#28282880"
+                sub_back="#1d20211f"
                 >
               </ThemePanelColors>
             </panelcolors>
@@ -1141,18 +1141,18 @@
             button_title="#fbf1c7"
             button_text="#ebdbb2"
             button_text_hi="#fbf1c7"
-            navigation_bar="#504945ff"
-            execution_buts="#504945ff"
-            tab_active="#504945"
+            navigation_bar="#3c3836ff"
+            execution_buts="#3c3836ff"
+            tab_active="#3c3836"
             tab_inactive="#282828"
             tab_back="#282828ff"
             tab_outline="#282828"
             >
             <panelcolors>
               <ThemePanelColors
-                header="#3c383600"
-                back="#32302fb3"
-                sub_back="#1d20213e"
+                header="#28282880"
+                back="#28282880"
+                sub_back="#1d20211f"
                 >
               </ThemePanelColors>
             </panelcolors>
