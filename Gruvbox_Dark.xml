@@ -316,21 +316,6 @@
             >
           </ThemeWidgetColors>
         </wcol_list_item>
-        <wcol_view_item>
-          <ThemeWidgetColors
-            outline="#282828"
-            inner="#28282800"
-            inner_sel="#665c54ff"
-            item="#bdae93ff"
-            text="#ebdbb2"
-            text_sel="#fbf1c7"
-            show_shaded="FALSE"
-            shadetop="0"
-            shadedown="0"
-            roundness="0.4"
-            >
-          </ThemeWidgetColors>
-        </wcol_view_item>
         <wcol_state>
           <ThemeWidgetStateColors
             inner_anim="#b8bb26"
@@ -370,6 +355,7 @@
         clipping_border_3d="#3c3836ff"
         wire="#1d2021"
         wire_edit="#a89984"
+        edge_width="1"
         gp_vertex="#3c3836"
         gp_vertex_select="#fe8019"
         gp_vertex_size="4"
@@ -399,6 +385,7 @@
         face_dot="#d65d0e"
         facedot_size="4"
         freestyle_face_mark="#8ec07c4d"
+        face_retopology="#83a5980f"
         face_back="#ff0000b3"
         face_front="#0000ffb3"
         nurb_uline="#98971a"
@@ -476,6 +463,13 @@
             </panelcolors>
           </ThemeSpaceGradient>
         </space>
+        <asset_shelf>
+          <ThemeAssetShelf
+            header_back="#1d2021ff"
+            back="#3c3836ff"
+            >
+          </ThemeAssetShelf>
+        </asset_shelf>
       </ThemeView3D>
     </view_3d>
     <graph_editor>
@@ -596,6 +590,7 @@
         grid="#504945"
         view_sliders="#928374"
         dopesheet_channel="#458588"
+        dopesheet_subchannel="#7c6f64"
         nla_track="#3c3836"
         active_action="#d65d0e66"
         active_action_unset="#9283744d"
@@ -691,6 +686,7 @@
         summary="#fe801966"
         preview_range="#d65d0e66"
         interpolation_line="#8ec07ccc"
+        simulated_frames="#8f3f71ff"
         >
         <space>
           <ThemeSpaceGeneric
@@ -747,10 +743,12 @@
         face_dot="#fe8019"
         facedot_size="3"
         freestyle_face_mark="#8ec07c33"
+        face_retopology="#282828"
         face_back="#1d202100"
         face_front="#1d202100"
         editmesh_active="#fbf1c780"
         wire_edit="#d5c4a1"
+        edge_width="1"
         edge_select="#fe8019"
         scope_back="#504945ff"
         preview_stitch_face="#98971a33"
@@ -819,6 +817,7 @@
         scene_strip="#98971a"
         audio_strip="#83a598"
         effect_strip="#b16286"
+        transition_strip="#b16286"
         color_strip="#928374"
         meta_strip="#b16286"
         mask_strip="#665c54"
@@ -830,6 +829,13 @@
         time_marker_line="#1d202160"
         time_marker_line_selected="#fbf1c760"
         keyframe="#fe8019"
+        keyframe_selected="#fbf1c7"
+        keyframe_breakdown="#83a598"
+        keyframe_breakdown_selected="#458588"
+        keyframe_movehold="#7c6f64"
+        keyframe_movehold_selected="#d79921"
+        keyframe_border="#282828ff"
+        keyframe_border_selected="#282828ff"
         draw_action="#83a598"
         preview_back="#1d2021"
         metadatabg="#1d2021"
@@ -993,6 +999,8 @@
         layout_node="#665c54"
         geometry_node="#689d6a"
         attribute_node="#458588"
+        simulation_zone="#8f3f7133"
+        repeat_zone="#7c6f6433"
         >
         <space>
           <ThemeSpaceGeneric
