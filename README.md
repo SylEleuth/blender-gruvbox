@@ -1,14 +1,13 @@
-# Blender gruvbox theme
+# <div align="center">Blender gruvbox theme</div>
 
-Blender 2.80+ theme based on the gruvbox color scheme https://github.com/morhetz/gruvbox
+Blender 2.80+ theme based on the [gruvbox color scheme](https://github.com/morhetz/gruvbox)
 
-![gruvbox_dark](https://user-images.githubusercontent.com/33354262/149359768-5757c925-0bef-4551-a71d-ba43538eee7a.png)
+![gruvbox dark](https://github.com/SylEleuth/blender-gruvbox/assets/33354262/1771e5d7-335e-4773-a5f2-fac2ccf43d46)
 
-![gruvbox_light](https://user-images.githubusercontent.com/33354262/149359764-90b37055-8c2a-4d04-b97c-4b976b506918.png)
-<br/><br/>
+![gruvbox light](https://github.com/SylEleuth/blender-gruvbox/assets/33354262/49dce51f-9eb0-41bb-8a84-1850349e4ecf)
 
 Installation
------------
+------------
 
 Latest version is ready for download [on "Releases" page](https://github.com/SylEleuth/blender-gruvbox/releases)
 
