@@ -67,7 +67,7 @@
             inner="#ebdbb2bf"
             inner_sel="#fe8019ff"
             item="#fbf1c78f"
-            text="#ebdbb2"
+            text="#3c3836"
             text_sel="#fbf1c7"
             show_shaded="FALSE"
             shadetop="0"
@@ -430,7 +430,7 @@
           <ThemeSpaceGradient
             title="#3c3836"
             text="#3c3836"
-            text_hi="#3c3836"
+            text_hi="#f9f5d7"
             header="#ebdbb200"
             header_text="#3c3836"
             header_text_hi="#3c3836"
