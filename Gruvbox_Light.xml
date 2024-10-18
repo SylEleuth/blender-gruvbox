@@ -28,7 +28,7 @@
         icon_object_data="#98971a"
         icon_modifier="#076678"
         icon_shading="#b16286"
-        icon_folder="#FABD2F"
+        icon_folder="#fabd2f"
         icon_border_intensity="0"
         >
         <wcol_regular>
@@ -360,20 +360,20 @@
         gp_vertex_select="#af3a03"
         gp_vertex_size="4"
         text_grease_pencil="#79740e"
-        object_selected="#d79921"
-        object_active="#d65d0e"
-        text_keyframe="#b57614"
-        camera="#665c54"
-        empty="#665c54"
-        light="#665c5428"
-        speaker="#665c54"
+        object_selected="#d65d0e"
+        object_active="#d79921"
+        text_keyframe="#d65d0e"
+        camera="#3c3836"
+        empty="#3c3836"
+        light="#3c383628"
+        speaker="#3c3836"
         vertex="#504945"
-        vertex_select="#d65d0e"
-        vertex_active="#af3a03"
+        vertex_select="#fe8019"
         vertex_size="4"
         vertex_bevel="#458588"
         vertex_unreferenced="#f9f5d7"
         edge_select="#fe8019"
+        edge_mode_select="#fabd2f"
         edge_seam="#cc241d"
         edge_sharp="#076678"
         edge_crease="#b16286"
@@ -382,6 +382,7 @@
         freestyle_edge_mark="#427b58"
         face="#f9f5d712"
         face_select="#d65d0e6c"
+        face_mode_select="#fabd2f33"
         face_dot="#af3a03"
         facedot_size="4"
         freestyle_face_mark="#427b584d"
@@ -406,7 +407,7 @@
         extra_edge_angle="#98971a"
         extra_face_angle="#458588"
         extra_face_area="#689d6a"
-        editmesh_active="#af3a03ff"
+        editmesh_active="#fe8019ff"
         normal="#076678"
         vertex_normal="#458588"
         split_normal="#b16286"
@@ -680,6 +681,8 @@
         keyframe_jitter_selected="#689d6a"
         keyframe_movehold="#d5c4a1"
         keyframe_movehold_selected="#d79921"
+        keyframe_generated="#504945"
+        keyframe_generated_selected="#a89984"
         keyframe_border="#504945ff"
         keyframe_border_selected="#f9f5d7ff"
         keyframe_scale_factor="1"
@@ -734,12 +737,12 @@
         grid="#fbf1c7ff"
         vertex="#f9f5d7"
         vertex_select="#af3a03"
-        vertex_active="#282828"
         vertex_size="3"
         vertex_bevel="#f9f5d7"
         vertex_unreferenced="#f9f5d7"
         face="#2828280a"
         face_select="#af3a033c"
+        face_mode_select="#1d202100"
         face_dot="#af3a03"
         facedot_size="3"
         freestyle_face_mark="#427b5833"
@@ -805,6 +808,13 @@
             </panelcolors>
           </ThemeSpaceGeneric>
         </space>
+        <asset_shelf>
+          <ThemeAssetShelf
+            header_back="#fbf1c7ff"
+            back="#ebdbb2ff"
+            >
+          </ThemeAssetShelf>
+        </asset_shelf>
       </ThemeImageEditor>
     </image_editor>
     <sequence_editor>
@@ -834,6 +844,8 @@
         keyframe_breakdown_selected="#076678"
         keyframe_movehold="#a89984"
         keyframe_movehold_selected="#b57614"
+        keyframe_generated="#504945"
+        keyframe_generated_selected="#a89984"
         keyframe_border="#ebdbb2ff"
         keyframe_border_selected="#ebdbb2ff"
         draw_action="#9d0006"
@@ -1615,6 +1627,7 @@
     <panel_title>
       <ThemeFontStyle
         points="12"
+        character_weight="400"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1626,6 +1639,7 @@
     <widget_label>
       <ThemeFontStyle
         points="11"
+        character_weight="400"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="0"
@@ -1637,6 +1651,7 @@
     <widget>
       <ThemeFontStyle
         points="11"
+        character_weight="400"
         shadow="1"
         shadow_offset_x="0"
         shadow_offset_y="0"
