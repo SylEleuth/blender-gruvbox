@@ -172,7 +172,7 @@
         <wcol_box>
           <ThemeWidgetColors
             outline="#ebdbb2"
-            inner="#f9f5d733"
+            inner="#fbf1c7cc"
             inner_sel="#bdae93ff"
             item="#f9f5d7ff"
             text="#3c3836"
@@ -217,7 +217,7 @@
         <wcol_menu_back>
           <ThemeWidgetColors
             outline="#fbf1c7"
-            inner="#f2e5bce6"
+            inner="#fbf1c7e6"
             inner_sel="#d5c4a1ff"
             item="#7c6f64ff"
             text="#7c6f64"
@@ -231,10 +231,10 @@
         </wcol_menu_back>
         <wcol_pie_menu>
           <ThemeWidgetColors
-            outline="#fbf1c7"
-            inner="#f2e5bcff"
-            inner_sel="#d5c4a1e6"
-            item="#d5c4a1ff"
+            outline="#d5c4a1"
+            inner="#fbf1c7"
+            inner_sel="#d5c4a1ff"
+            item="#ebdbb2ff"
             text="#504945"
             text_sel="#282828"
             show_shaded="FALSE"
@@ -321,6 +321,10 @@
         </wcol_list_item>
         <wcol_state>
           <ThemeWidgetStateColors
+            error="#fb4934ff"
+            warning="#fabd2fff"
+            info="#83a598ff"
+            success="#8ec07cff"
             inner_anim="#b8bb26"
             inner_anim_sel="#98971a"
             inner_key="#fabd2f"
@@ -471,7 +475,7 @@
         </space>
         <asset_shelf>
           <ThemeAssetShelf
-            header_back="#fbf1c7ff"
+            header_back="#d5c4a1ff"
             back="#ebdbb2ff"
             >
           </ThemeAssetShelf>
@@ -758,7 +762,7 @@
         wire_edit="#504945"
         edge_width="1"
         edge_select="#af3a03"
-        scope_back="#D5C4A1ff"
+        scope_back="#d5c4a1ff"
         preview_stitch_face="#98971a33"
         preview_stitch_edge="#8f3f7133"
         preview_stitch_vert="#45858833"
@@ -839,7 +843,7 @@
         text_strip="#8f3f71"
         active_strip="#d5c4a1"
         selected_strip="#fe8019"
-        frame_current="#458588"
+        frame_current="#83a598"
         time_scrub_background="#fbf1c7e6"
         time_marker_line="#28282860"
         time_marker_line_selected="#d65d0e60"
@@ -859,16 +863,18 @@
         metadatatext="#282828"
         preview_range="#d65d0e66"
         row_alternate="#2828280d"
+        text_strip_cursor="#458588ff"
+        selected_text="#2828284d"
         >
         <space>
           <ThemeSpaceGeneric
             back="#fbf1c7"
             title="#3c3836"
-            text="#3c3836"
+            text="#928374"
             text_hi="#3c3836"
             header="#ebdbb2ff"
             header_text="#3c3836"
-            header_text_hi="#3c3836"
+            header_text_hi="#ebdbb2"
             button="#ebdbb2ff"
             button_title="#3c3836"
             button_text="#3c3836"
@@ -1019,6 +1025,7 @@
         simulation_zone="#8f3f7133"
         repeat_zone="#a8998433"
         foreach_geometry_element_zone="#07667833"
+        closure_zone="#427b5833"
         >
         <space>
           <ThemeSpaceGeneric
@@ -1106,25 +1113,22 @@
     <info>
       <ThemeInfo
         info_selected="#d65d0e"
-        info_selected_text="#282828"
-        info_error="#cc241d"
-        info_error_text="#282828"
-        info_warning="#9d0006"
-        info_warning_text="#282828"
-        info_info="#458588"
-        info_info_text="#282828"
-        info_debug="#504945"
-        info_debug_text="#f9f5d7"
+        info_selected_text="#ebdbb2"
+        info_error_text="#ebdbb2"
+        info_warning_text="#ebdbb2"
+        info_info_text="#ebdbb2"
+        info_debug="#b16286"
+        info_debug_text="#ebdbb2"
         info_property="#689d6aff"
-        info_property_text="#fbf1c7"
-        info_operator="#689d6aff"
-        info_operator_text="#fbf1c7"
+        info_property_text="#ebdbb2"
+        info_operator="#458588ff"
+        info_operator_text="#ebdbb2"
         >
         <space>
           <ThemeSpaceGeneric
             back="#ebdbb2"
             title="#3c3836"
-            text="#3c3836"
+            text="#504945"
             text_hi="#3c3836"
             header="#f2e5bcff"
             header_text="#3c3836"
@@ -1248,6 +1252,7 @@
         strips_selected="#af3a03"
         metadatabg="#f9f5d7"
         metadatatext="#282828"
+        preview_range="#b5761466"
         handle_free="#f9f5d7"
         handle_auto="#98971a"
         handle_align="#b16286"
