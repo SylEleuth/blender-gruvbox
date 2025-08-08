@@ -15,8 +15,6 @@ Each color variant has a separate link:
 - [Gruvbox Dark](https://extensions.blender.org/themes/gruvbox-dark/)
 - [Gruvbox Light](https://extensions.blender.org/themes/gruvbox-light/)
 
-Release version available on github page will not be updated anymore.
-
 #### Activate theme
 
 Choose installed theme from a list:
