@@ -157,9 +157,9 @@
         <wcol_numslider>
           <ThemeWidgetColors
             outline="#ebdbb2"
-            inner="#ebdbb2ff"
-            inner_sel="#d5c4a180"
-            item="#d5c4a1e6"
+            inner="#fbf1c7ff"
+            inner_sel="#d5c4a1bf"
+            item="#fe9019ff"
             text="#3c3836"
             text_sel="#282828"
             show_shaded="TRUE"
