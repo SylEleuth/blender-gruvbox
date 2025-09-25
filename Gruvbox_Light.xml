@@ -261,8 +261,8 @@
         </wcol_tooltip>
         <wcol_menu_item>
           <ThemeWidgetColors
-            outline="#f9f5d7"
-            inner="#f9f5d700"
+            outline="#fbf1c7ff"
+            inner="#fbf1c7ff"
             inner_sel="#fe8019ff"
             item="#2828288f"
             text="#3c3836"
