@@ -334,7 +334,7 @@
           <ThemeWidgetColors
             outline="#504945ff"
             outline_sel="#504945ff"
-            inner="#282828ff"
+            inner="#1d2021ff"
             inner_sel="#458588ff"
             item="#d65d0eff"
             text="#ebdbb2"
@@ -843,8 +843,8 @@
         match="#665c54"
         selected_highlight="#504945"
         active="#665c54"
-        selected_object="#fabd2f"
-        active_object="#fe8019"
+        selected_object="#fe8019"
+        active_object="#fabd2f"
         edited_object="#98971a66"
         row_alternate="#fbf1c707"
         >
