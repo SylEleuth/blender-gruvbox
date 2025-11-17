@@ -843,8 +843,8 @@
         match="#bdae93"
         selected_highlight="#ebdbb2"
         active="#d5c4a1"
-        selected_object="#d79921"
-        active_object="#d65d0e"
+        selected_object="#d65d0e"
+        active_object="#d79921"
         edited_object="#98971a66"
         row_alternate="#fbf1c766"
         >
