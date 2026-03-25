@@ -488,10 +488,12 @@
     <view_3d>
       <ThemeView3D
         grid="#bdae93bb"
+        grid_major="#bdae93ff"
         clipping_border_3d="#ebdbb2ff"
         wire="#3c3836"
         wire_edit="#3c3836"
         edge_width="1"
+        gp_wire_edit="#a8998480"
         gp_vertex="#3c3836"
         gp_vertex_select="#cc241d"
         gp_vertex_size="4"
@@ -648,7 +650,9 @@
         keyframe_border_selected="#665c54ff"
         keyframe_scale_factor="1"
         summary="#fe801966"
-        interpolation_line="#689d6acc"
+        anim_interpolation_linear="#8ec07ccc"
+        anim_interpolation_constant="#d3869bcc"
+        anim_interpolation_other="#83a598cc"
         simulated_frames="#8f3f71ff"
         >
         <space>
@@ -745,7 +749,7 @@
     </sequence_editor>
     <properties>
       <ThemeProperties
-        match="#bdae93"
+        match="#83a598"
         >
         <space>
           <ThemeSpaceGeneric
@@ -891,7 +895,9 @@
       </ThemeInfo>
     </info>
     <preferences>
-      <ThemePreferences>
+      <ThemePreferences
+        match="#83a598"
+        >
         <space>
           <ThemeSpaceGeneric
             back="#ebdbb2"
